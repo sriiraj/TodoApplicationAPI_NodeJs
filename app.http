@@ -1,0 +1,11 @@
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+  "id": 10,
+  "todo": "Finnt themes",
+  "priority": "MEDIUM",
+  "status": "TO DO",
+  "category": "HOME",
+  "dueDate":"2021-02-27"
+}
